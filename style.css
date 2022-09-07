@@ -1,0 +1,25 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+h2 {
+    animation-duration: 4s;
+    animation-name: slidein;
+    font-family: cursive;
+    font-size: 2em;
+}
+@keyframes slidein {
+    from{
+        margin-left: 150%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
