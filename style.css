@@ -8,17 +8,15 @@ body {
 
 
 }
-
 h2 {
     animation-duration: 4s;
     animation-name: slidein;
     font-family: cursive;
     font-size: 2em;
-
 }
 @keyframes slidein {
-    from{
-        margin-left: 180%;
+    from {
+        margin-left: 100%;
     }
     to {
         margin-left: 0%;
