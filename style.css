@@ -14,10 +14,11 @@ h2 {
     animation-name: slidein;
     font-family: cursive;
     font-size: 2em;
+
 }
 @keyframes slidein {
     from{
-        margin-left: 150%;
+        margin-left: 180%;
     }
     to {
         margin-left: 0%;
